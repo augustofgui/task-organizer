@@ -1,6 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { FiCheckSquare } from 'react-icons/fi';
 
 import AppMenu from '../AppMenu';
 import TaskList from '../TaskList';

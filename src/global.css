@@ -31,10 +31,10 @@ button {
 }
 
 .button-add {
-    font: 600 1.4rem Poppins, sans-serif;
+    font: 600 0.5rem Poppins, sans-serif;
     color: #831900;
-    padding: 0.2rem 4rem;
-    border: 3px solid #831900;
-    border-radius: 15px;
+    padding: 0.2rem 0.5rem;
+    border: 1px solid #831900;
+    border-radius: 5px;
     text-decoration: none;
 }

@@ -1,4 +1,3 @@
-
 .task-list-container{
     flex-grow: 4;
 
@@ -6,13 +5,18 @@
     border-color: #9d806a;
     border-radius: 25px; 
     background-color: #f1d6a7;
-    margin: 3rem;
+    margin: 3rem 0;
     padding: 2rem 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
 }
 
 .task-list-title {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 
     color: #924b2d;
 }
@@ -23,77 +27,18 @@
 }
 
 .task-list-title .button-add {
-    
+    font-size: 0.6rem;
 }
 
-.titulo-tarefas{
-    margin-left: 35px;
-    font-size: 30px;
-    color:#831900;
-}
+.task-board-list {
+    width: 100%;
+    align-self: stretch;
+    justify-self: stretch;
 
-#botao-add-quadro{
-    font-size: 12px;
-}
 
-.tres-abas{
-    margin-left: 50px;
-    display: grid;
-    grid-template-columns: 270px 270px 270px;
-}
-
-.aba{
-    height: 380px;
-    margin: 10px;
-    border: 3px solid;
-    border-radius: 25px;
-    border-color: #831900;
-    background-color: #F0E2BA;
-}
-
-#titulo{
-    margin-left: 20px;
-    border-bottom: 6px aquamarine solid;
-    padding: 10px;
-}
-
-.texto-tarefa{
-    margin-left: 30px;
-    margin-top: 20px;
-    font-size: 13px;
-}
-
-.line-leandro{
-    margin-left: 28px;
-    margin-right: 28px;
-}
-
-.botao-tarefa{
-    font-size: 12px;
-    margin-top: 110px;
-    margin-left: 130px;  
-}
-
-.icon-leandro{
-    font-size: 18px;
-}
-
-.espaco-icon{
-    margin-right: 20px;
-    text-align: right;
-}
-
-.botao-tarefa{
-    color:#831900;
-}
-
-.section-tarefas{
-    display: grid;
-    grid-template-columns: 300px 900px;
-}
-
-.parte-cima-menu{
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 730px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
 }

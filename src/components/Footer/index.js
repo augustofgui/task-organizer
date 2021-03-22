@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { FiFacebook, FiInstagram, FiLinkedin, FiMail, FiPhone, FiTwitter } from 'react-icons/fi';
 
 import './styles.css';
